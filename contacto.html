@@ -1,0 +1,306 @@
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="misestilos.css" type="text/css">
+    <link rel="stylesheet" href="carruseltestimonios.css" type="text/css">
+    <link rel="stylesheet" href="animated.css" type="text/css">
+    <script src="https://kit.fontawesome.com/9a5e93ac75.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>  <!--copiado de la pagina https://supersimpleslider.com/-->
+    <script src="sss/sss.min.js"></script>
+    <script src="js/eskju.jquery.scrollflow.min.js"></script>
+    <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+   
+
+
+    <script>jQuery(function($) {
+    $('.slider-testimonial').sss({
+      slideShow:true, // si el valor es false el slider no seria automatico sino manual
+      speed:6000        // speed:6000  // donde 6000 es seis segundos cantidad en la que se demora la transicion entre comentarios
+
+    });
+    });
+    </script>
+ 
+ 
+
+    <title>PyG Consultores</title>
+    <link rel="icon" type="image/.png" href="images/icono-pestaña.png">
+  </head>
+    
+    
+  <body data-spy="scroll" data-target="#navbar" data-offset="86"> <!--106 es igual al valor del alto del menu de navegacion o navbar y se usa para que el scrollspy cambien de seccion en el momento adecuado-->
+<!-- spinner carga -->
+
+<div id="contenedor_carga">
+  <div id="carga">
+  </div>
+</div>
+
+<!--/ spinner carga -->
+    <!-- H E A D E R  -->
+<nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"> <!--sticky-top sirve para que el navegador o menu se quede fijo al hacer scroll-->
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo2.svg" alt="">
+       
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">  <!--ml = margin left-->
+            <li class="nav-item"><!--si colocamos la clase active seguido a nav-item  el texto la conferencia aparecera iluminado  y no el scrollspy-->
+              <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                     <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="index.html#profesionales">Profesionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item ">
+                    <a class="nav-link text-platzi" href="contacto.html">Contacto</a>
+            </li>
+          
+          </ul>
+          
+        </div>
+    </div>   
+      </nav>
+<!-- /H E A D E R  -->
+ 
+<section id="cucuta">
+
+<div class="container-fluid">
+  <div class="card bg-dark text-white">
+    <img src="images/cucuta.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <p class="card-text">Encuentranos en</p>
+      <h5 class="card-title" id="titulo-imagen-cucuta">Cúcuta</h5>
+
+    </div>
+  </div>
+</div>
+  
+</section>
+
+<!-- CONTACTANOS-->
+
+<section id="Contactanos" class=" pt-4 pb-4">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+   
+    <div class="row">
+        <div class="col col-md-10  col-lg-4  pt-2">
+            
+                <div class="col text-center" id="titulo-seccion">
+                        <h2 id="escribenos">Escribenos</h2>
+                       </div>  
+
+            <form method="POST" action="enviar2.php" name="loginform">
+                <div class="form-row">
+                  <div class="form-group col-12"> <!--form-group   agregamos espacions entre los dos campos de texto-->
+                    <input type="text" name="nombre"  class="form-control" required="required" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-12">
+                    <input type="text" name="apellido" class="form-control" placeholder="Apellido">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-12 "> <!--form-group   agregamos espacios entre los dos campos de texto-->
+                    <input type="text" name="email" class="form-control" required="required" placeholder="Correo">
+                  </div>
+                  <div class="form-group col-12 ">
+                    <input type="text" name="telefono" class="form-control" required="required" placeholder="Telefono">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col form-group">
+                    <textarea name="mensaje" id="" cols="" rows="" class="form-control form-control-lg " required="Required" placeholder="Mensaje"></textarea>
+                    <small class="form-text text-muted"></small>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <button type="submit" name="enviarcorreo" class="btn btn-platzi btn-block" disabled>Enviar</button> <!--btn-block   el boton ocupa todo el ancho de la columna disponible-->
+                    <input type="checkbox" name="terminos" onclick="enableSending()">
+                    <a href="" data-toggle="modal" data-target="#modalDatos">ACEPTO TERMINOS Y CONDICIONES</a>
+                  </div>
+                </div>
+              </form>
+
+        </div>
+
+        <div class="col col-md-10  col-lg-8  pt-2" id="seccion-pagina-contacto" >
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <i class="fas fa-phone-volume fa-3x"></i>
+                    <h4> PBX: (7) 575 50 97</h4>
+                </div>
+                <div class="col-12 col-lg-6">
+                                 
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                    <h4>(+57) 302 381 84 41</h4>
+                    </div>
+            </div>
+            <div class="row">
+
+                    <div class="col-12 col-lg-6">
+                            <i class="fas fa-envelope fa-3x"></i>
+                            <h4>info@pygconsultores.com.co</h4>
+                        </div> 
+                    <div class="col-12 col-lg-6">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                        <h4>Centro de Negocios Ventura Plaza <br> Ofc 3-111 Cúcuta</h4>
+                    </div> 
+            </div>         
+            </div>
+     </div>
+  </div>
+  <div class="container-fuid mt-4">
+        <div id="animacionMapa" class="col-12 ">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.0692024844852!2d-72.49888658572878!3d7.887829007988382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66450aaa254789%3A0x5aee37baf9d024b5!2sCentro+Comercial+Ventura+Plaza!5e0!3m2!1ses!2sco!4v1561991899997!5m2!1ses!2sco"></iframe> 
+         </div>
+  </div>
+</section>
+<!-- /CONTACTANOS-->
+
+
+<!-- F O O T E R -->
+    <footer id="footer" class="pb-4 pt-4 "> <!-- pb = padding botom, pt = padding top-->
+            <div class="container">
+                <div class="row text-center text-lg-left" >
+                        <div class="col-12 col-lg seccion-footer">
+                            <h6>Pyg Consultores</h6>
+                            <p><A>Somos una empresa prestadora de servicios jurídicos mediante la modalidad de outsourcing  comprometidos con la excelencia en el servicio de asesoría, consultoría y acompañamiento jurídico.</A></p>
+                        </div>
+                        <div class="col-12 col-lg seccion-footer">
+                          <h6>ACCESO RAPIDO</h6> 
+                          <p><a href="index.html">Inicio</a></p> 
+                          <p><a href="servicios.html">Servicios</a></p> 
+                          <p><a href="index.html#profesionales">Equipo</a></p> 
+                          <p><a href="index.html#Contactanos">Contacto</a></p> 
+                           
+                        </div>
+                        <div class="col-12 col-lg seccion-footer">
+                            <h6>SERVICIOS</h6> 
+                            <p><a href="#">Derecho laboral</a></p> 
+                            <p><a href="#">SG-SST</a></p> 
+                            <p><a href="#">Recaudo de cartera</a></p> 
+                            <p><a href="#">Asesoria en derecho comercial</a></p> 
+                            <p><a href="#">Outsourcing, nomina y RRHH</a></p> 
+                        </div>
+                        <div class="col-12 col-lg seccion-footer">
+                           <h6>REDES SOCIALES</h6>
+                           <a href="https://www.facebook.com/PYG-Consultores-y-Outsourcing-Legal-SAS-575492545795627/" alt="facebook" target="_blank"> <i class="fab fa-facebook-square fa-3x color-facebook"></i></a>
+                           <a href="" alt="" target="_blank"> <i class="fab fa-youtube-square fa-3x color-youtube"></i></a>
+                           <a href="" alt="" target="_blank"> <i class="fab fa-twitter-square fa-3x color-twitter"></i></a>
+                           <a href="" alt="" target="_blank"> <i class="fab fa-linkedin fa-3x color-linkedin"></i></a>
+                    
+                       
+
+                        </div>
+                      </div>
+              <div class="row text-center mt-4">
+                 <div class="col-12">
+                    <div id="derechos">&copy; PYG Consultores y outsourcing legal S.A.S. - Todos los derechos reservados
+                        <div>Cúcuta, Colombia 2019</div> 
+                        </div>
+                 </div>
+              </div>
+                    </div>
+            </footer>
+         <!-- /F O O T E R -->
+                        
+   
+<!-- Modal -->
+<div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form >
+          <div class="form-row">
+            <div class="form-group col">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+            </div>
+          </div>
+
+        </form>
+
+      <!--alerta-->  
+        <div class="alert alert-warning" role="alert">
+            Recibiras un correo de informacion si sales sorteado|!
+          </div>  
+      <!--/alerta-->    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-platzi">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal -->
+
+
+<!--modal tratamiento de datos-->
+
+<div class="modal fade" id="modalDatos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Tratamiento de datos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo quis quidem quasi deserunt sit dicta nisi tenetur ratione repellendus, officia, numquam minus. Dolor dicta ab, consectetur, nesciunt officia natus eveniet aspernatur sed blanditiis, voluptatibus eum. Nemo natus et totam reprehenderit cumque quis recusandae dolor consectetur, animi ratione earum distinctio, enim unde corporis pariatur consequuntur repudiandae dolores nisi nihil, maxime autem architecto rerum harum vero? Minima, magnam sequi? Commodi est nostrum ex distinctio ducimus quae aspernatur aperiam, voluptas voluptate, error eaque amet animi non quos reiciendis unde iste placeat? Temporibus aliquam nihil magnam illum voluptatum, architecto laborum maxime quaerat maiores amet veniam eaque ipsam, deleniti nisi, perferendis quasi vel aliquid recusandae? Magnam dolor aspernatur eum et saepe quis nobis aliquam ea est natus minima rem, quam itaque, eos quasi quod sit recusandae nulla sapiente! Delectus accusamus voluptate suscipit id iste, minima reiciendis praesentium. Inventore provident vel ipsam minima veniam, modi qui, rem ex obcaecati esse temporibus ea minus tempore repudiandae repellat laudantium neque vero facere quaerat sed laborum maiores accusantium tenetur? Nostrum blanditiis dicta provident, iure est enim assumenda quia sint corporis, rem quis cum atque optio officiis unde excepturi at! Eaque omnis maiores doloribus vitae unde, eum quia qui, sunt, voluptatem expedita necessitatibus quas sint asperiores quis iste iusto voluptatum dolorum aliquid facilis ex nihil nulla. Saepe facilis soluta illo rem atque ullam odit commodi. Animi inventore laboriosam consequatur repellat alias. Optio modi, quam at delectus, doloribus commodi atque porro assumenda, voluptate corporis quas dolores nemo iusto. Maiores eligendi quibusdam ea cum culpa amet, laboriosam quisquam ratione eum iste tenetur eos sunt qui. Veritatis quasi eius impedit et voluptates quo, nisi autem cum eos, cupiditate itaque a placeat cumque, vel ullam unde blanditiis ratione numquam ipsam distinctio molestias! Placeat, quos nesciunt! Inventore ratione dolore est doloribus harum ipsam vel. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Volver</button>
+      </div>
+    </div>
+  </div>
+</div>
+     
+<!--/modal tratamiento de datos-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/botonHamburguesa.js"></script>
+    <script src="js/checkBox.js"></script>
+    <script src="js/animaciones.js"></script>
+    <script src="js/loading.js"></script>
+  </body>
+</html> 

@@ -1,0 +1,506 @@
+ #titulo-seccion h1 {
+    margin-top: 50px;
+    color: #19324c;
+    font-family: 'Crimson Text', serif; /*lara en google fonts*/
+    
+}
+#titulo-seccion h2{
+    color: #19324c;
+    font-family: 'Crimson Text', serif;
+}
+
+.subtexto{
+    color: #454545;
+}
+
+.text-platzi {
+color: #4173f2 !important;
+}
+
+#header{
+    box-shadow: 0 0 15px gray;
+}
+#navbar ul > li > a{
+    font-family:  'Teko', sans-serif;
+    font-size: 20px;
+}
+#navbar ul > li > a:hover{
+    color: #4173f2;
+}
+
+.btn-platzi{
+    background-color:#4173f2 !important;
+    color:white;
+}
+.btn-platzi:hover{
+    background-color:#3a71fb !important;
+    color: white;
+}
+
+#header img{
+  width: 70px;  
+}
+
+#main .carousel-inner  img{
+    max-height: 70vh;  /*para fque ocupe el 70% del alto de la pantalla*/ 
+    object-fit: cover; /* para que la imagen no se vea estirada hacia los lados despues de redimensionarla*/
+    /* filter: grayscale(70%); */
+}
+#speakers img{
+    border-radius: 10%;
+}
+
+#imagen-profesionales{
+    max-width: 70%;
+    margin: auto;
+   
+}
+#profesionales  h6{
+    color: #bdbdbd;
+
+}
+#profesionales  p{
+    color: #bdbdbd;
+
+}
+
+#place-time{
+    background-color: white;
+    color: #505867;
+}
+.color-icono{
+    color: #4173f2;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+#texto-ventajas p{
+    padding-right: 30px;
+}
+
+#place-time img{
+    max-width: 100%;
+    
+
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute; /*para que se expanda por todo el alto y el ancho del carrusel*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 1;
+}
+
+.overlay img{
+    width: 150px;
+}
+
+.overlay h1, h3{
+    margin-bottom: 0px;
+}
+
+.overlay h1, h3{
+    font-family: 'Crimson Text', serif; 
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+
+    height: 100%;
+
+}
+
+                                                            /* estilos portafolio index */
+
+
+#intro-servicios{
+    margin-top: 50px;
+    margin-bottom: 50px;   
+     justify-content: space-between;
+
+}
+
+
+#intro-servicios h3{
+    color: #94a2bd;
+    margin-bottom: 30px;
+    font-family:  'Teko', sans-serif;
+}
+
+#colum i{
+    width: 100%;
+    color: #94a2bd;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    
+}
+
+
+
+#colum:hover{
+    box-shadow: 0px 0px 20px 5PX #4173f2;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+#place-time img{
+
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#leer-mas {
+    color: #4173f2 !important;
+
+}
+#leer-mas i{
+    padding-left: 20px;
+}
+#card {
+    border:none;
+}
+#card img{
+    object-fit:cover;
+}
+.mapa{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border:none;
+
+}
+.datos-ubicacion{
+
+    padding: 80px 80px;
+
+}
+.item-ubicacion{
+    padding-top: 40px;
+}
+.item-ubicacion i{
+    color: #4173f2;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#footer {
+ background: #1d262d;  
+}
+
+#footer  h5{
+
+    margin-bottom: 30px;
+    color: #ffffff !important;
+    font-family: 'Crimson Text', serif;
+}
+
+#footer  h6{
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #ffffff !important;
+    font-family: 'Crimson Text', serif;
+}
+
+#footer p{
+    color: rgba(255,255,255,0.7);
+    padding-right: 20px;
+}
+
+#footer a {
+    color: rgba(255,255,255,0.7);
+}
+
+.seccion-footer{
+    border-left:  1px solid #bdbdbd;
+}
+.seccion-footer img{
+  width:80px;
+  
+}
+.seccion-footer I{
+    padding-right: 10px;
+}
+.color-facebook{
+    color: #3b5998
+}
+
+.color-youtube{
+    color: #ff0000;
+}
+.color-twitter{
+    color: #55acee
+}
+.color-linkedin{
+    color: #007bb5
+}
+#derechos{
+    color: #979090;
+
+}
+
+
+
+/*transiciones
+
+colocar en html lo siguiente si se quiere trabarar con animate.cc   --->animated fadeInLeft
+
+.fadeInLeft {
+    visibility: visible;
+    animation-name: fadeInLeft;
+    animation-delay: 0.5s;   
+}*/
+
+#otro{
+    background: url('images/contactoimg4.jpg');
+}
+
+#aceptoTerminos{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+                                                                    /* estilos blog */
+
+#contenedor-post{
+    border-top: 1px solid #4173f2
+}
+
+#post img{
+    width: 100%;
+    max-width: 100%;
+    
+    margin-bottom: 50px; 
+    border-radius: 10%;
+    box-shadow: 15px 15px 20px 5PX #D1D1DA; /*Cuatro valores de propiedad, el desplazamiento horizontal, el desplazamiento vertical, el radio de desenfoque y la distancia de propagación*/
+}
+
+#texto-post h2{
+ padding-left: 40px;
+ padding-bottom: 15px;
+}
+
+
+#texto-post i{
+    color: #4173f2;
+    padding-right: 10px;
+            }
+
+
+#color-texto-claro{
+    color: #989da7;
+}
+
+#header-blog img{
+    max-height: 30vh;  /*para fque ocupe el 70% del alto de la pantalla*/ 
+    object-fit: cover;
+}
+
+#header-blog  h1{
+  font-size: 70px;
+  vertical-align: center;
+}
+
+                                                           /* estilos contacto.html */
+
+                                                          
+  #seccion-pagina-contacto {
+      width: 100%;
+      text-align: center;
+  }                            
+  
+  #seccion-pagina-contacto i{
+  
+    color: #4173f2;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}       
+
+#seccion-pagina-contacto h4{
+    font-family:  'Teko', sans-serif;
+}
+#escribenos{
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    background: #F8FAFC !important;
+    border: none !important;
+}
+
+#cucuta{
+    text-align: center;
+}
+
+#cucuta img{
+    max-height: 70vh;  /*para fque ocupe el 70% del alto de la pantalla*/ 
+    object-fit: cover;
+}
+
+#titulo-imagen-cucuta{
+    font-size: 120px !important;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0px !important;
+
+}
+
+#cucuta p{
+margin-top: 50px;
+font-size: 30px;
+font-family: 'Teko', sans-serif;
+
+}
+
+
+                                        /* estilos servicios.html */ 
+            
+
+#servicio img{
+    width: 100%;
+     margin-bottom: 30px;
+    }                                   
+                                            
+.estilo {
+    background-color: #F8FAFC; 
+     }
+.estilo span {
+    color:  #505867 ;
+     }
+                                            
+.estilo:hover{
+     background-color: #4173f2;
+    transition: 0.5s;
+    }
+ .estilo:hover span{
+     color:#fff;
+    }
+                                        
+#texto-servicio h1{
+    padding-bottom: 15px;
+    color: #19324c;
+    font-weight: bold;
+    }
+                                        
+ #texto-servicio p{
+     color:#505867;
+    font-weight: 300;
+     font-size: 20px;    
+    }
+                                        
+#container-servicio-individual{
+    margin-top: 80px;   
+    }
+
+
+
+                                                /* estilos spinner loader */
+
+#contenedor_carga {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #0006f6;
+    border-top-style: groove;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    -webkit-webkit-animation: girar 1.5s linear infinite;
+    -o-webkit-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+
+@keyframes girar {
+    from { transform:rotate(0deg) ;}
+    to{ transform: rotate(360deg) ;}
+}
+
+
+
+
+                                        
+
+                                                            /* responsives 
+                                                            // Extra small devices (portrait phones, less than 576px)
+                                                            @media (max-width: 575.98px) { ... }
+                                                            
+                                                            // Small devices (landscape phones, 576px and up)
+                                                            @media (min-width: 576px) and (max-width: 767.98px) { ... }
+                                                            
+                                                            // Medium devices (tablets, 768px and up)
+                                                            @media (min-width: 768px) and (max-width: 991.98px) { ... }
+                                                            
+                                                            // Large devices (desktops, 992px and up)
+                                                            @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+                                                            
+                                                            // Extra large devices (large desktops, 1200px and up)
+                                                            @media (min-width: 1200px) { ... }  */
+
+
+
+   
+
+ /* responsive  blog*/
+
+@media (min-width: 992px) { 
+
+    #texto-post p{
+        padding-left: 40px;
+    }
+    }
+    
+@media (max-width: 767px) { 
+
+    #texto-post p{
+           text-align: justify;
+        }
+        }
+
+/* responsive contacto.html */
+
+@media (max-width: 767px) {      
+        #titulo-imagen-cucuta{
+            font-size: 50px !important;
+        }
+    }
+ /* responsive portafolio index*/
+
+ @media (min-width: 768px) {    
+ #colum{
+    box-shadow: 0px 0px 20px 5PX #D1D1DA;
+    border-radius: 10%;
+
+ }
+}
